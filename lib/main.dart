@@ -72,6 +72,12 @@ class _FirstScreen extends State<FirstScreen> {
               width: 20.0,
             ),
           ],
+          title: Center(
+            child: Image.asset(
+              'images/logo.png',
+              width: 40, // Ajusta el ancho de tu logo según sea necesario
+            ),
+          ),
         ),
         backgroundColor: Colors.white70,
         body: ListView(
