@@ -52,7 +52,7 @@ class _FirstScreen extends State<FirstScreen> {
                 width: 5.0,
               ),
               IconButton(
-                color: Colors.white,
+                color: Colors.black87,
                 icon: const Icon(
                   Icons.arrow_back,
                 ),
@@ -62,9 +62,9 @@ class _FirstScreen extends State<FirstScreen> {
           ),
           actions: <Widget>[
             IconButton(
+              color: Colors.black87,
               icon: const Icon(
                 Icons.shopping_cart,
-                color: Colors.white,
               ),
               onPressed: () {},
             ),
